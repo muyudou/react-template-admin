@@ -12,6 +12,7 @@ import {
 } from "@ant-design/icons";
 
 const Dashboard = lazy(() => import("../pages/Dashboard"));
+const Dashboard2 = lazy(() => import("../pages/Dashboard2"));
 const FormPage = lazy(() => import("../pages/FormPage"));
 const TablePage = lazy(() => import("../pages/TablePage"));
 const AccountCenter = lazy(() => import("../pages/AccountPage/AccountCenter"));
@@ -31,7 +32,12 @@ const routes = [
         children: [
           {
             index: true,
-            title: "Dashboard",
+            title: "Dashboard2",
+            icon: <DashboardOutlined />,
+            element: <Dashboard2 />,
+          },
+          {
+            title: "Dashboard1",
             icon: <DashboardOutlined />,
             element: <Dashboard />,
           },

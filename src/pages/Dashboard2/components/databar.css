@@ -1,0 +1,10 @@
+.sn-container {
+    margin-top: 20px;
+    width: 700px;
+    height: 250px;
+    background: #02091f;
+}
+.sn-container .chartsdom {
+  width: 100%;
+  height: 250px;
+}
